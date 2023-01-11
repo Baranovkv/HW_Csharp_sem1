@@ -1,8 +1,8 @@
-﻿Console.WriteLine("Enter the first whole number, please");
-int number1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Enter the second whole number, please");
+﻿Console.WriteLine("Enter the first whole number, please"); // запрашиваем первое число
+int number1 = Convert.ToInt32(Console.ReadLine()); 
+Console.WriteLine("Enter the second whole number, please"); // запрашиваем второе число
 int number2 = Convert.ToInt32(Console.ReadLine());
-if (number1 > number2)
+if (number1 > number2) //проверяем числа на равенство/больше/меньше
 {
     Console.WriteLine($"Maximum = {number1}, Minimum = {number2}");
 }
