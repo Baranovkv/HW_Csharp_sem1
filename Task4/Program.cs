@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Enter the first whole number, please");
+﻿// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел
+Console.WriteLine("Enter the first whole number, please");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter the second whole number, please");
 int number2 = Convert.ToInt32(Console.ReadLine());
